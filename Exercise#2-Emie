@@ -1,0 +1,822 @@
+
+	1: output what's in the directory
+        dir
+
+	2: echo 'cousin speculate panel surprise rain' into the file
+	    echo 'cousin speculate panel surprise rain' >> filename.txt
+
+	3: create a directory difficulty and move into the directory
+	    mkdir difficulty
+        cd difficulty
+
+	4: create a file called on.txt
+        new-item on.txt
+
+	5: output the sizes of the files in the directory
+	   ls or dir or
+       Get-childitem c:\users |Measure-Object -Property Length -sum
+
+	6: delete the last folder you created
+	    rm difficulty
+
+	7: open a file in the terminal and see the content
+	   .\filename.txt
+
+	8: open a file in the terminal and see the content
+	   .\on.txt
+
+	9: move two folders up
+	    cd c:\
+
+	10: move two folders up
+	    cd c:\
+
+	11: create two directories degree and cousin and move into cousin
+	     mkdir degree
+         mkdir cousin
+         cd cousin
+
+	12: output the full path you are on
+	     pwd
+
+	13: echo 'cater architecture on needle pioneer' into the file
+	     echo 'cater architecture on needle pioneer' >> cousin.txt
+
+	14: create a file called surprise.txt and immediately delete it
+	      new-item surprise.txt
+          rm surprise.txt
+
+	15: output the sizes of the files in the directory
+	     Get-childitem c:\ |Measure-object -property Length -sum
+
+	16: create a file called advantage.txt
+	     New-item advantage.txt
+
+	17: create a file called interference.txt and rename it so that it's called banish.txt instead. Hint: This should be done in 2 commands
+	      New-item interference.txt
+          rni c:\interference.txt -newname ‘banish.txt’
+
+	18: create a file called speculate.txt and rename it so that it's called pray.txt instead. Hint: This should be done in 2 commands
+	      New-item speculate.txt
+          rni c:\speculate.txt -newname ‘pray.txt’
+
+	19: create a file called rider.txt and immediately delete it
+	     New-item rider.txt
+         rm rider.txt
+
+	20: create a file called nerve.txt and immediately delete it
+	     New-item nerve.txt
+         rm nerve.txt
+
+	21: create a file called needle.txt and immediately delete it
+	    New-item needle.txt
+        rm needle.txt
+
+	22: output the sizes of the files in the directory
+	    ls or dir or Get-childitem c:\users |Measure-Object -Property Length -sum
+
+	23: create a file called on.txt and rename it so that it's called plane.txt in-stead. Hint: This should be done in 2 commands
+	     New-item on.txt
+         rni c:\on.txt -newname ‘plane.txt’
+
+	24: output the sizes of the files in the directory
+	     ls
+
+	25: delete the last file you created
+	     rm plane.txt
+
+	26: output what's in the directory
+	     dir
+
+	27: delete the last folder you created
+	     rm needle.txt
+
+	28: create a file called medal.txt. Put the text 'evaluate honor bay cater nerve' in it and copy it so there is also a recommend.txt with same content
+	    New-item medal.txt
+        echo 'evaluate honor bay cater nerve' >> medal.txt
+        Copy-item “.\medal.txt” -destination “recommend.txt”
+
+	29: create a file called cater.txt
+        New-item cater.txt
+
+	30: echo 'recommend terminal discover proportion difficulty' into the file
+	     echo 'recommend terminal discover proportion difficulty' >> cater.txt
+
+	31: create a file called bay.txt and immediately delete it
+	     New-item bay.txt
+         rm bay.txt
+
+	32: delete the last folder you created
+	     rm cater.txt
+
+	33: output the full path you are on
+	    pwd
+
+	34: output what's in the directory
+	    dir
+
+	35: output hidden files
+	    ls -force -file
+
+	36: write something in a file called plane.txt
+	     echo ‘something’ >> plane.txt
+
+	37: move one level up
+	    cd..
+
+	38: output the full path you are on
+	    pwd
+
+
+	39: create a file called advice.txt. Put the text 'ethics surprise hill plane regret' in it and copy it so there is also a speculate.txt with same content
+	    New-item advice.txt
+        echo ‘ethics surprise hill plane regret’ >> advice.txt
+        Copy-item “.\advice.txt” -destination “.speculate.txt”
+
+	40: output hidden files
+	     ls -force -file
+
+	41: create a file called salvation.txt
+	      New-item salvation.txt
+
+	42: create two directories panel and needle and move into needle
+	     mkdir panel
+         mkdir needle
+         cd needle
+
+	43: create a file called architecture.txt
+	     New-item architecture.txt
+
+	44: output hidden files
+	     ls -force -file
+
+	45: output who the active user is
+	     Get-childitem Env:\username
+
+	46: delete the last folder you created
+	      rm needle
+
+	47: move two folders up
+	     cd c:\
+
+	48: delete the last folder you created
+	    rm panel
+
+	49: output hidden files
+	    ls -force -file
+
+	50: output hidden files
+	    ls -force -file
+
+	51: create a file called panel.txt and immediately delete it
+	    New-item panel.txt
+        rm panel.txt
+
+
+	52: output who the active user is
+	     Get-childitem Env:\username
+
+	53: write something in a file called speculate.txt
+	     echo ‘something’ >> speculate.txt
+
+	54: output what's in the directory
+	     dir
+
+	55: echo 'shot sister ethics advice honor' into the file
+	    echo 'shot sister ethics advice honor' >> speculate.txt
+
+	56: create a directory responsibility and move into the directory
+	     mkdir responsibility
+         cd responsibility
+
+	57: output hidden files
+	     ls -force -file
+
+	58: output the full path you are on
+	     pwd
+
+	59: if there are any directories in the folder then move inside any one of them
+	     cd -path
+
+	60: open a file in the terminal and see the content
+	    .\speculate.txt
+
+	61: create a file called regret.txt
+	     New-item regret.txt
+
+	62: create a directory nerve and move into the directory
+	     mkdir nerve
+         cd nerve
+
+	63: move two folders up
+	     cd c:\
+
+	64: delete the last file you created
+	     rm nerve
+
+	65: create a directory depression and move into the directory
+	    mkdir depression
+        cd depression
+
+	66: create a directory hill and move into the directory
+	     mkdir hill
+         cd hill
+
+	67: open a file in the terminal and see the content
+	     .\hill
+
+	68: move one level up
+	     cd..
+
+	69: move two folders up
+	    cd c:\
+
+	70: move one level up
+	    cd..
+
+	71: open a file in the terminal and see the content
+	    .\depression
+
+	72: delete the last folder you created
+	     rm nerve
+
+	73: output the full path you are on
+	     pwd
+
+	74: output the content of any file in the directory
+	     Get-content medal.txt
+
+	75: output the full path you are on
+	     pwd
+
+	76: delete the last folder you created
+	     rm depression
+
+	77: output hidden files
+	     ls -force -file
+
+	78: output the full path you are on
+	     pwd
+
+	79: move two folders up
+	     cd c:\
+
+	80: move one level up
+	     cd..
+
+	81: move two folders up
+	     cd c:\
+
+	82: output hidden files
+	     ls -force -file
+
+	83: open a file in the terminal and see the content
+	     .\recommend.txt
+
+	84: create two directories cousin and ethics and move into ethics
+	     mkdir cousin
+         mkdir ethics
+         cd ethics
+
+	85: output the full path you are on
+	     pwd
+
+	86: move two folders up
+	    cd c:\
+
+	87: create a file called panel.txt and immediately delete it
+	    New-item panel.txt
+        rm panel.txt
+
+	88: create two directories stock and appreciate and move into appreciate
+	     mkdir stock
+         mkdir appreciate
+         cd appreciate
+
+	89: if there are any directories in the folder then move inside any one of them
+	     cd -path
+
+	90: output hidden files
+	     ls -force -file
+
+	91: output the sizes of the files in the directory
+	     ls
+
+	92: output hidden files
+	     ls -force -file
+
+	93: output the sizes of the files in the directory
+	     ls
+
+	94: create a file called speculate.txt. Put the text 'panel abortion banish speculate panel' in it and copy it so there is also a stock.txt with same con-tent
+	     New-item speculate.txt
+         echo 'panel abortion banish speculate panel' >> speculate.txt
+         Copy-item “.\speculate.txt” -destination “.stock.txt”
+
+	95: delete the last folder you created
+	     rm appreciate
+
+	96: create a directory abortion and move into the directory
+	      mkdir abortion
+          cd abortion
+
+	97: output the full path you are on
+	      pwd
+
+	98: move two folders up
+	     cd c:\
+
+	99: create a directory panel and move into the directory
+	     mkdir panel
+         cd panel
+
+	100: create a file called hill.txt and immediately delete it
+	     New-item hill.txt
+         rm hill.txt
+
+	101: create a directory regret and move into the directory
+	      mkdir regret
+          cd regret
+
+	102: open a file in the terminal and see the content
+	      .\stock.txt
+
+	103: output what's in the directory
+	      ls
+
+	104: output the content of any file in the directory
+	      Get-content medal.txt
+
+	105: create a file called appreciate.txt and immediately delete it
+	      New-item appreciate.txt
+          rm appreciate.txt
+
+	106: create a directory pen and move into the directory
+	      mkdir pen
+          cd pen
+
+	107: output what's in the directory
+	     ls
+
+	108: move one level up
+	     cd..
+
+	109: move one level up
+	     cd..
+
+	110: if there are any directories in the folder then move inside any one of them
+	     cd -path
+
+	111: create a directory banish and move into the directory
+	      mkdir banish
+          cd banish
+
+	112: output the sizes of the files in the directory
+	     ls
+
+	113: echo 'stock advantage experienced regret correspondence' into the file
+	      echo 'stock advantage experienced regret correspondence' >> newfile.txt
+
+	114: output the full path you are on
+	      pwd
+
+	115: output the content of any file in the directory
+	      .\newfile.txt
+
+	116: echo 'architecture speculate beat cousin cater' into the file
+	      echo 'architecture speculate beat cousin cater' >> newfiles.txt
+
+	117: write something in a file called support.txt
+	      echo ‘something’ >> support.txt
+
+	118: open a file in the terminal and see the content
+	      .\suppport.txt
+
+	119: output who the active user is
+	      Get-childitem Env:\username
+
+	120: output who the active user is
+	      Get-childitem Env:\username
+
+	121: output what's in the directory
+	      dir
+
+	122: move one level up
+	      cd..
+
+	123: move one level up
+	     cd..
+
+	124: output the sizes of the files in the directory
+	     ls
+
+	125: output the content of any file in the directory
+	      Get-content support.txt
+
+	126: output what's in the directory
+	      dir
+
+	127: output what's in the directory
+	      dir
+
+	128: output what's in the directory
+	      dir
+
+	129: create a file called nerve.txt
+	      New-item nerve.txt
+
+	130: open a file in the terminal and see the content
+	      .\nerve.txt
+
+	131: write something in a file called advice.txt
+	      echo ‘something up’ >> advice.txt
+
+	132: move one level up
+	      cd..
+
+	133: delete the last folder you created
+	      rm banish
+
+	134: output who the active user is
+	      Get-childitem Env:\username
+
+	135: create a directory advice and move into the directory
+	      mkdir advice
+          cd advice
+
+	136: write something in a file called advantage.txt
+	      echo ‘something something’ >> advantage.txt
+
+	137: output the sizes of the files in the directory
+	       ls
+
+	138: create a file called cater.txt
+	       New-item cater.txt
+
+	139: output who the active user is
+	      Get-childitem Env:\username
+
+	140: write something in a file called rain.txt
+	      echo ‘rain drops’ >> rain.txt
+
+	141: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	142: create a file called recession.txt and rename it so that it's called ban-ish.txt instead. Hint: This should be done in 2 commands
+	     New-item recession.txt
+         rni c:\recession.txt -newname ‘banish.txt’
+
+	143: create two directories recession and hill and move into hill
+	      mkdir recession.txt
+          mkdir hill
+          cd hill
+
+	144: move one level up
+	     cd..
+
+	145: echo 'shallow shot ethics honor advantage' into the file
+	      echo 'shallow shot ethics honor advantage' >> recession.txt
+
+	146: create a directory proportion and move into the directory
+	      mkdir proportion
+          cd proportion
+
+	147: output hidden files
+	      ls -force -file
+
+	148: delete the last folder you created
+	      rm proportion
+
+	149: output the full path you are on
+          pwd
+
+	150: write something in a file called hill.txt
+	      echo ‘hill are hills’ >> hill.txt
+
+	151: write something in a file called honor.txt
+	      echo ‘honor is a virtue’ >> honor.txt
+
+	152: create a file called beat.txt and rename it so that it's called corre-spondence.txt instead. Hint: This should be done in 2 commands
+	      New-item beat.txt
+          rni c:\beat.txt -newname ‘correspondence.txt’
+
+	153: echo 'ethics pray appreciate abortion cousin' into the file
+	       echo 'ethics pray appreciate abortion cousin' >> correspondence.txt
+
+	154: output the content of any file in the directory
+	      Get-content correspondence.txt
+
+	155: create a file called pioneer.txt and rename it so that it's called pen.txt instead. Hint: This should be done in 2 commands
+	      New-item pioneer.txt
+          rni c:\pioneer.txt -newname ‘pen.txt’
+
+	156: output hidden files
+	      ls -force -file
+
+	157: output what's in the directory
+	      dir
+
+	158: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	159: output hidden files
+	      ls -force -file
+
+	160: create a directory terminal and move into the directory
+	     mkdir terminal
+         cd terminal
+
+	161: delete the last file you created
+	      rm pen.txt
+
+	162: output the content of any file in the directory
+          dir
+
+	163: create a file called ditch.txt. Put the text 'identity terminal cater dis-cover excuse' in it and copy it so there is also a needle.txt with same content
+	      New-item ditch.txt
+          echo 'identity terminal cater discover excuse' >> ditch.txt
+          Copy-item “.\ditch.txt” -destination “.needle.txt”
+
+	164: open a file in the terminal and see the content
+	      .\needle.txt
+
+	165: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	166: delete the last file you created
+	      rm needle.txt
+
+	167: create two directories abortion and terminal and move into terminal
+	      mkdir abortion
+          mkdir terminal
+          cd terminal
+
+	168: create a file called terminal.txt and rename it so that it's called recom-mend.txt instead. Hint: This should be done in 2 commands
+	      New-item terminal.txt
+          rni c:\terminal.txt -newname ‘recommend.txt’
+
+	169: create a file called honor.txt and immediately delete it
+	      New-item honor.txt
+          rm honor.txt
+
+	170: output the content of any file in the directory
+	     .\recommend.txt or get-childitem recommend.txt
+
+	171: create a file called degree.txt
+	      New-item degree.txt
+
+	172: output what's in the directory
+	      dir
+
+	173: move one level up
+	      cd..
+
+	174: output the content of any file in the directory
+	      Get-content recommend.txt
+
+	175: move two folders up
+	      cd c:\
+
+	176: create a directory needle and move into the directory
+	     mkdir needle
+         cd needle
+
+	177: create a file called salvation.txt and immediately delete it
+	      New-item salvation.txt
+          rm salvation.txt
+
+	178: create a file called difficulty.txt and rename it so that it's called ditch.txt instead. Hint: This should be done in 2 commands
+	      New-item difficulty.txt
+          rni c:\difficulty.txt -newname ‘ditch.txt’
+
+	179: output who the active user is
+	      Get-childitem Env:\username
+
+	180: output the full path you are on
+	      pwd
+
+	181: open a file in the terminal and see the content
+	     .\ditch.txt
+
+	182: output what's in the directory
+	     dir
+
+	183: open a file in the terminal and see the content
+	     .\ditch.txt
+
+	184: move two folders up
+	     cd c:\
+
+	185: delete the last file you created
+	      rm ditch.txt
+
+	186: open a file in the terminal and see the content
+	      .\recommend.txt
+
+	187: output what's in the directory
+	      dir
+
+	188: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	189: create a file called surprise.txt and rename it so that it's called pan-el.txt instead. Hint: This should be done in 2 commands
+	     New-item surprise.txt
+         rni c:\surprise.txt -newname ‘panel.txt’
+
+	190: echo 'correspondence recession beat advice recommend' into the file
+	      echo 'correspondence recession beat advice recommend' >> panel.txt
+
+	191: move two folders up
+	      cd c:\
+
+	192: create a file called cater.txt
+	      New-item cater.txt
+
+	193: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	194: delete the last folder you created
+	      rm cater.txt
+
+	195: create a file called responsibility.txt
+	      New-item responsibility.txt
+
+	196: move one level up
+	      cd..
+
+	197: create a file called abortion.txt
+	       New-item abortion.txt
+
+	198: delete the last file you created
+	      rm abortion.txt
+
+	199: delete the last file you created
+	      rm responsibility.txt
+
+	200: delete the last folder you created
+	      mkdir needle
+
+	201: output the sizes of the files in the directory
+	      ls
+
+	202: output the sizes of the files in the directory
+	      ls
+
+	203: output who the active user is
+	      Get-childitem Env:\username
+
+	204: output hidden files
+	      ls -force -file
+
+	205: move two folders up
+	      cd c:\
+
+	206: create a file called advice.txt and immediately delete it
+	      New-item advice.txt
+          rm advice.txt
+
+	207: write something in a file called speculate.txt
+	      echo ‘something’ >> speculate.txt
+
+	208: create a file called regret.txt and rename it so that it's called reces-sion.txt instead. Hint: This should be done in 2 commands
+	     New-item regret.txt
+         rni c:\regret.txt -newname ‘recession.txt’
+
+	209: create a file called ditch.txt. Put the text 'pen abortion advantage panel correspondence' in it and copy it so there is also a support.txt with same con-tent
+          New-item ditch.txt
+          echo 'pen abortion advantage panel correspondence' >> ditch.txt
+          Copy-item “.\ditch.txt” -destination ‘support.txt’
+
+	210: write something in a file called correspondence.txt
+	      echo ‘Hello’ >> correspondence.txt
+
+	211: delete the last folder you created
+	      rm terminal
+
+	212: write something in a file called terminal.txt
+	      echo ‘something’ >> terminal.txt
+
+	213: delete the last file you created
+	      rm terminal.txt
+
+	214: output who the active user is
+	      Get-childitem Env:\username
+
+	215: move one level up
+	      cd..
+
+	216: if there are any directories in the folder then move inside any one of them
+	      cd -path
+
+	217: output the sizes of the files in the directory
+	      ls
+
+	218: echo 'rain pen responsibility degree needle' into the file
+	      echo 'rain pen responsibility degree needle' >> correspondence.txt
+
+	219: create a file called needle.txt and rename it so that it's called recom-mend.txt instead. Hint: This should be done in 2 commands
+	     New-item needle.txt
+         rni c:\needle.txt -newname ‘recommend.txt’
+
+	220: output the sizes of the files in the directory
+	      ls
+
+	221: open a file in the terminal and see the content
+	      .\recommend.txt
+
+	222: create a file called beat.txt
+	      New-item beat.txt
+
+	223: output what's in the directory
+	      dir
+
+	224: output what's in the directory
+	      dir
+
+	225: output the full path you are on
+	      pwd
+
+	226: create a file called plane.txt
+	      New-item plane.txt
+
+	227: output who the active user is
+	      Get-childitem Env:\username
+
+	228: output the full path you are on
+	      pwd
+
+	229: output who the active user is
+	      Get-childitem Env:\username
+
+	230: create a directory architecture and move into the directory
+	      mkdir architecture
+          cd architecture
+
+	231: output the full path you are on
+	      pwd
+
+	232: output who the active user is
+	      Get-childitem Env:\username
+
+	233: create a file called ethics.txt
+	      New-item ethics.txt
+
+	234: write something in a file called shot.txt
+	      echo ‘write something’ >> shot.txt
+
+	235: create a directory ditch and move into the directory
+	      mkdir ditch
+          cd ditch
+
+	236: move one level up
+	      cd..
+
+	237: create a file called sister.txt. Put the text 'appreciate cater shallow relative pray' in it and copy it so there is also a experienced.txt with same content
+	      New-item sister.txt
+          echo 'appreciate cater shallow relative pray' >> sister.txt
+          Copy-item “.\sister.txt” -destination experienced.txt
+
+	238: move one level up
+	      cd..
+
+	239: output the sizes of the files in the directory
+	      ls
+
+	240: delete the last file you created
+	      rm experienced.txt
+
+	241: output hidden files
+	      ls -force -file
+
+	242: output the full path you are on
+	      pwd
+
+	243: output the full path you are on
+	      pwd
+
+	244: echo 'pioneer plane sister difficulty medal' into the file
+	      echo 'pioneer plane sister difficulty medal' >> sister.txt
+
+	245: create two directories speculate and surprise and move into surprise
+	      mkdir speculate
+          mkdir surprise
+          cd surprise
+
+	246: move one level up
+	      cd..
+
+	247: create a file called shot.txt and rename it so that it's called ad-vantage.txt instead. Hint: This should be done in 2 commands
+	      New-item shot.txt
+          rni c:\shot.txt -newname ‘advantage.txt’
+
+	248: output hidden files
+	      ls -force -file
+
+	249: create a file called stock.txt. Put the text 'speculate salvation shallow depression discover' in it and copy it so there is also a nerve.txt with same content
+	      New-item stock.txt
+          echo 'speculate salvation shallow depression discover' >> stock.txt
+          Copy-item c:\stock.txt -destination ‘nerve.txt’
+
+	250: output the full path you are on
+          pwd
+
