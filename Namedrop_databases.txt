@@ -1,0 +1,24 @@
+- List 6 relational databases.
+Mysql
+Postgres
+MariaDB
+Firebird
+Sequel server
+SQLite
+
+- List 2 in-memory databases.
+H2 (DBMS)
+HSQLDB
+
+List at least 1 of each of the NoSQL categories.
+Relational databases vs.
+-------------------------
+NoSQL databases:
+- Key-Value Stores
+Reddis
+- Document Databases
+Mongo-db
+- Columnar Databases
+HBase
+- Graph Databases
+Neo4j
